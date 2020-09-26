@@ -1,0 +1,17 @@
+site_name: STM32 Tutorial
+google_analytics: ['UA-36723568-3', 'mkdocs.org']
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+markdown_extensions:
+  - attr_list
+nav:
+    - Home: 'index.md'
+    - 'User Guide':
+        - 'Basic Programs': 'chap1.md'
+        - 'Advanced Programs': 'chap2.md'
+    - About:
+        - 'Release Notes': 'rls.md'
