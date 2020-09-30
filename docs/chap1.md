@@ -1,28 +1,12 @@
-#Basic coding Examples
+#Advanced Programming#
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-##pruebas
-texto texto
-## Commands
+En esta sección se da una explicación mas amplia sobre la programación de los microcontroladores STM32, esto incluira teoría sobre los buses de infomacion, el funcionamiento, interfaces, registros, etc.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Si lo que requieres es un recordatorio de como usar las librerías HAL utiliza  ve al [Quick start Programming](chap2.md#Quick start Programming) para mas detalles.   
 
-## Project layout
+##¿Qué tiene que ver la navidad con las librerías HAL?##
+ST implementa librerias llamadas HAL (Hardware Abstraction Layer) para los microcontroladores STM32.
+Las librerias HAL permiten implementar funciones mas sencillas, que no dependen del hardware sobre el que se implementen, sin embargo el costo es un mayor tiempo de ejecución por instrucción.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-#Programs
-
-##Parpadeo
-
-##ADC
-
-##UART
-
-##SPI
+Para aplicaciones con requerimientos de tiempo muy precisas es preferible utilizar los registros del microcontrolador STM utilizado.
 
