@@ -11,7 +11,7 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - 'User Guide':
-        - 'Quick start Programming': 'chap2.md'
-        - 'Advanced Programming': 'chap1.md'
+        - 'Quick start Programming': 'chap1.md'
+        - 'Advanced Programming': 'chap2.md'
     - About:
         - 'Release Notes': 'rls.md'
